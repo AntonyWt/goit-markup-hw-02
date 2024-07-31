@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #2e2f42;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo a span {
+    color: #007bff;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #007bff;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-info a:hover,
+.contact-info a:focus,
+.contact-info span:hover,
+.contact-info span:focus {
+    color: #007bff;
+}
+
+.main-page-container {
+    background: #2e2f42;
+    width: 100%;
+    max-width: 1440px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.main-page-title {
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.main-page-button {
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f4f4fd;
+    padding: 20px 0;
+}
+
+.section-1-container {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 250px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    font-size: 1em;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.section-2-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    background: #f4f4fd;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.section-2-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.section-2-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-2-member {
+    text-align: center;
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-photo {
+    width: 100%;
+    height: auto;
+
+}
+
+.section-2-text {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+    /* Text color */
+}
+.portfolio-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.portfolio-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    width: calc(33.33% - 13.33px);
+    text-align: center;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h5{
+    text-align: left;
+}
+.portfolio-text {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.footer {
+    background: #2e2f42;
+    /* Background color */
+    width: 1440px;
+    /* Set the footer width */
+    height: 312px;
+    /* Set the footer height */
+    padding: 0 20px;
+    /* Side padding for content */
+    color: #fff;
+    /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Vertically center the content */
+    align-items: flex-start;
+    /* Align items to the left */
+    margin: 0 auto;
+    /* Center the footer horizontally on the page */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+.footer .logo-footer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer .logo-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .logo-footer a span {
+    color: #007bff;
+}
+
+.footer .text-footer {
+    font-size: 16px;
+    max-width: 600px;
+    /* Restricts the text width for readability */
+    margin: 0;
+}
