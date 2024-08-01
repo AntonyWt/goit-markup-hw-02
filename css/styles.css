@@ -8,7 +8,6 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
 /* Logo styles */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -42,8 +41,9 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404bbf;
+    color: #4d5ae5;
     text-decoration: underline;
+
 }
 
 /* Contact styles */
