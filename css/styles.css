@@ -8,6 +8,10 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.logo span {
+    color: #2e2f42;
+    /* Встановлення кольору тексту */
+}
 
 a {
     text-decoration: none;
