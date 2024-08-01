@@ -8,7 +8,7 @@ body {
 }
 
 /* Логотип в навігації */
-.main-link-logo .logo-text {
+.main-link .logo-text {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -25,7 +25,7 @@ body {
 
 /* Навігаційні посилання */
 .nav-link,
-.main-link-logo {
+.main-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -35,9 +35,9 @@ body {
 }
 
 .nav-link:hover,
-.main-link-logo:hover,
+.main-link:hover,
 .nav-link:focus,
-.main-link-logo:focus {
+.main-link:focus {
     color: #404bbf;
 }
 
@@ -105,63 +105,166 @@ body {
 
 /* Колір тексту всередині логотипа у футері */
 .footer-logo .logo-text {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
-/* Секція портфоліо та команда */
-.features-list,
-.team-list,
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
+/* Заголовки секцій */
+.features {
+    background-color: #F4F4FD;
+    padding: 2em;
+}
+
+.section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.features-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.feature-item,
-.team-member,
-.portfolio-item {
-    flex: 1;
-    margin: 0.5em;
-    box-sizing: border-box;
+.feature-item {
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
 }
 
-.feature-title,
-.team-name,
-.portfolio-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0 0 0.5em 0;
 }
 
-.feature-description,
-.team-role,
-.feature-text {
+.feature-description {
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.feature-description,
-.team-role,
-.feature-text {
-    margin-top: 0.5em;
+/* Контент */
+.team {
+    background-color: #F4F4FD;
+    padding: 2em;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 1em;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.team-member {
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0 0 0.5em 0;
+}
+
+.team-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* Футер */
 .footer {
-    background-color: #f8f9fa;
+    background-color: #2e2f42;
     padding: 1em;
-    text-align: center;
+    color: #f4f4fd;
 }
 
 .footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Портфоліо */
+.portfolio {
+    background-color: #F4F4FD;
+    padding: 2em;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 1em;
+}
+
+.portfolio-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-item {
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0 0 0.5em 0;
+}
+
+.feature-text {
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
+}
+
+.footer {
+    background-color: #2e2f42;
+    padding: 1em;
+    color: #f4f4fd;
+    /* Кольор для параграфів у футері */
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
