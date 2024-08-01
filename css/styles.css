@@ -1,6 +1,6 @@
 /* Основні стилі для сайту */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,8 +12,20 @@ body {
 }
 
 /* Логотип */
-.logo span {
-    color: #2e2f42;
+.logo,
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-text,
+.footer-logo .logo-text {
+    color: #f4f4fd;
 }
 
 /* Заголовки секцій */
@@ -41,6 +53,19 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/* Футер */
+.footer {
+    background-color: #2e2f42;
+    padding: 1em;
+    color: #f4f4fd;
+    /* Кольор для параграфів у футері */
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Список команд */
