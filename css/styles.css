@@ -117,14 +117,6 @@ body {
 }
 
 /* Заголовки секцій */
-.section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
 
 .features {
     background-color: #F4F4FD;
@@ -132,12 +124,12 @@ body {
 }
 
 .section-title {
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: #ffffff;
     margin-bottom: 1em;
 }
 
