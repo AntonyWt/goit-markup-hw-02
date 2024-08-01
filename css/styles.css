@@ -38,17 +38,44 @@ body {
     color: #2e2f42;
 }
 
-/* Заголовки у списках */
+.features {
+    background-color: #F4F4FD;
+    padding: 2em;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 1em;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-item {
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+
 .feature-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0 0 0.5em 0;
 }
 
-/* Параграфи у списках */
-.feature-text {
+.feature-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
