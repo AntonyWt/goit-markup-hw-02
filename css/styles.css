@@ -1,187 +1,54 @@
-/* Importing fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Raleway:wght@700&display=swap');
-
-/* General styles */
+/* Основні стилі для сайту */
 body {
-    margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
+
+.header,
+.footer,
+.main {
+    padding: 1em;
+}
+
+/* Логотип */
 .logo span {
     color: #2e2f42;
-    /* Встановлення кольору тексту */
 }
 
-a {
-    text-decoration: none;
+/* Заголовки секцій */
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-link {
+/* Заголовки у списках */
+.feature-title {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #4d5ae5;
-    text-decoration: underline;
-}
-
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    font-style: normal;
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #4d5ae5;
-}
-
-/* Intro section */
-.intro {
-    text-align: center;
-    padding: 20px;
-}
-
-.intro-title {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.order-button {
-    font-size: 16px;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #4d5ae5;
-    border: none;
-    cursor: pointer;
-}
-
-.order-button:hover,
-.order-button:focus {
-    background-color: #2e2f42;
-}
-
-/* Features section */
-.features {
-    padding: 20px;
-}
-
-.features-title {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.2;
-    color: #434455;
-}
-
-.features-list {
-    list-style: none;
-    padding: 0;
-}
-
-.feature-item {
-    margin-bottom: 10px;
-}
-
-.feature-title {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.2;
-    color: #434455;
-}
-
+/* Параграфи у списках */
 .feature-text {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-/* Team section */
-.team {
-    padding: 20px;
-    text-align: center;
-}
-
-.team-title {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.2;
-    color: #434455;
-}
-
-.team-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.team-member {
-    text-align: center;
-}
-
+/* Список команд */
 .team-photo {
-    width: 100%;
-    height: auto;
+    width: 360px;
 }
 
-.team-name {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #434455;
-}
-
-.team-role {
-    font-size: 16px;
-    color: #434455;
-}
-
-/* Footer */
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #4d5ae5;
-}
-
-.footer-text {
-    font-size: 16px;
-    color: #434455;
+/* Список портфоліо */
+.portfolio-item img {
+    width: 360px;
 }
