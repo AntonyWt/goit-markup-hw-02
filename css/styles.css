@@ -1,12 +1,14 @@
 /* Основні стилі для сайту */
 body {
-    font-family: "Roboto", sans-serif,;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     color: #434455;
     background-color: #FFFFFF;
 }
-.main-link {
+
+/* Логотип в навігації */
+.main-link .logo-text {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -16,18 +18,12 @@ body {
     color: #4d5ae5;
 }
 
+/* Колір тексту всередині логотипа */
 .logo-text {
     color: #2e2f42;
-        font-family: "Raleway", sans-serif;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #4d5ae5;
 }
 
-/* Navigation Link Styles */
+/* Навігаційні посилання */
 .nav-link,
 .main-link {
     font-weight: 500;
@@ -45,7 +41,7 @@ body {
     color: #404bbf;
 }
 
-/* Address Styles */
+/* Стилі адреси */
 .contact-info {
     font-style: normal;
 }
@@ -62,6 +58,8 @@ body {
 .contact-link:focus {
     color: #404bbf;
 }
+
+/* Заголовки та кнопки */
 .intro {
     background-color: #2e2f42;
     padding: 2em;
@@ -93,16 +91,10 @@ body {
 .order-button:focus {
     background-color: #404BBF;
 }
-.header,
-.footer,
-.main {
-    padding: 1em;
-}
 
-/* Логотип */
-.logo,
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
+/* Логотип у футері */
+.footer-logo .logo-text {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -111,13 +103,12 @@ body {
     color: #4d5ae5;
 }
 
-.logo-text,
+/* Колір тексту всередині логотипа у футері */
 .footer-logo .logo-text {
     color: #f4f4fd;
 }
 
 /* Заголовки секцій */
-
 .features {
     background-color: #F4F4FD;
     padding: 2em;
@@ -213,7 +204,6 @@ body {
     background-color: #2e2f42;
     padding: 1em;
     color: #f4f4fd;
-    /* Кольор для параграфів у футері */
 }
 
 .footer-text {
@@ -221,11 +211,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-/* Список команд */
-.team-photo {
-    width: 360px;
-}
-
+/* Портфоліо */
 .portfolio {
     background-color: #F4F4FD;
     padding: 2em;
