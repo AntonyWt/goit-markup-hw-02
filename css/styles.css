@@ -1,8 +1,10 @@
 /* Основні стилі для сайту */
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Roboto", sans-serif,;
     margin: 0;
     padding: 0;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 .main-link {
     font-family: "Raleway", sans-serif;
