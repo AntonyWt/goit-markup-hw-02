@@ -11,7 +11,8 @@ body {
 }
 
 /* Логотип */
-.logo {
+.logo,
+.footer-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -246,16 +247,27 @@ nav ul {
 }
 
 /* Футер */
-.footer {
-    background: #2e2f42;
-    color: #fff;
+.site-footer {
+    background-color: #2e2f42;
     padding: 20px;
     text-align: center;
 }
 
-.text-footer {
+.footer-logo a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.footer-logo .logo-span {
+    color: #f4f4fd;
+}
+
+.footer-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
