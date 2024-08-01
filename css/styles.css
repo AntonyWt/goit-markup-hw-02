@@ -8,6 +8,7 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+
 /* Logo styles */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -36,19 +37,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    /* Початковий колір тексту */
     text-decoration: none;
-    /* Прибрати підкреслення */
 }
 
-/* Стиль для стану hover */
 .nav-link:hover,
 .nav-link:focus {
-    color: #404bbf;
-    /* Колір при наведенні мишкою та фокусі */
+    color: #4d5ae5;
     text-decoration: underline;
-    /* Підкреслення тексту при наведенні */
+
 }
+
 /* Contact styles */
 .contact-info {
     display: flex;
