@@ -67,7 +67,11 @@ body {
     padding: 2em;
     text-align: center;
 }
-
+h1{
+    font-size: 56px;
+    line-height: 1.07;
+    color: #ffffff;
+}
 .intro-title {
     font-size: 56px;
     line-height: 1.07;
