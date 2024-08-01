@@ -67,11 +67,7 @@ body {
     padding: 2em;
     text-align: center;
 }
-h1{
-    font-size: 56px;
-    line-height: 1.07;
-    color: #ffffff;
-}
+
 .intro-title {
     font-size: 56px;
     line-height: 1.07;
@@ -80,6 +76,7 @@ h1{
 }
 
 .order-button {
+    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
