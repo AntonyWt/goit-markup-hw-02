@@ -27,7 +27,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
 }
 
 /* Навігаційні посилання */
@@ -109,7 +108,6 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
 
 /* Колір тексту всередині логотипа у футері */
 .footer-logo .logo-text {
@@ -269,7 +267,6 @@ body {
     background-color: #2e2f42;
     padding: 1em;
     color: #f4f4fd;
-    /* Кольор для параграфів у футері */
 }
 
 .footer-text {
