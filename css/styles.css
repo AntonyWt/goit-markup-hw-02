@@ -1,4 +1,7 @@
 /* Основні стилі для сайту */
+.hero{
+    background-color:#2e2f42;
+}
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -8,7 +11,7 @@ body {
 }
 
 /* Логотип в навігації */
-.main-link .logo-text {
+.logo-text {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -16,6 +19,15 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+.main-link{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 
 /* Колір тексту всередині логотипа */
@@ -93,7 +105,9 @@ body {
     transition: background-color 0.3s;
 }
 
-.order-button:hover,
+.order-button:hover{
+    background-color: #404BBF;
+}
 .order-button:focus {
     background-color: #404BBF;
 }
