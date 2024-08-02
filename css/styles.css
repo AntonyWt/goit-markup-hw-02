@@ -90,8 +90,7 @@ body {
 .order-button:hover,
 .order-button:focus {
     background-color: #404BBF;
-    color: #f4f4fd;
-    /* Додано зміна кольору тексту */
+    color: #f4f4fd; /* Додано зміна кольору тексту */
 }
 
 /* Заголовки секцій */
