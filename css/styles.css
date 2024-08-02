@@ -105,13 +105,17 @@ body {
     transition: background-color 0.3s;
 }
 
-.order-button:hover{
+.order-button:hover {
     background-color: #404BBF;
-}
-.order-button:focus {
-    background-color: #404BBF;
+    color: #FFFFFF;
+    /* Колір шрифту при наведенні мишкою */
 }
 
+.order-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    /* Колір шрифту при фокусі */
+}
 /* Логотип у футері */
 .logo-text {
     font-family: "Raleway", sans-serif;
