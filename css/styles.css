@@ -81,24 +81,17 @@ body {
 }
 
 .order-button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
 
 .order-button:hover,
 .order-button:focus {
-    background-color: #404BBF;
+    color: #404bbf;
 }
-
 /* Логотип у футері */
 .logo-text {
     font-family: "Raleway", sans-serif;
