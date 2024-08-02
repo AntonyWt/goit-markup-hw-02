@@ -1,8 +1,4 @@
 /* Основні стилі для сайту */
-.hero {
-    background-color: #2e2f42;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -12,7 +8,7 @@ body {
 }
 
 /* Логотип в навігації */
-.logo-text-container .logo-text {
+.main-link .logo-text {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -22,17 +18,18 @@ body {
     color: #4d5ae5;
 }
 
-/* Інші стилі */
-.main-link {
+/* Колір тексту всередині логотипа */
+.logo-text {
+    color: #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
 }
 
+/* Навігаційні посилання */
 .nav-link,
 .main-link {
     font-weight: 500;
@@ -50,6 +47,7 @@ body {
     color: #404bbf;
 }
 
+/* Стилі адреси */
 .contact-info {
     font-style: normal;
 }
@@ -92,21 +90,32 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s;
 }
 
-.order-button:hover {
-    background-color: #404BBF;
-    color: #ffffff;
-    /* Колір шрифту при наведенні мишкою */
-}
-
+.order-button:hover,
 .order-button:focus {
     background-color: #404BBF;
-    color: #ffffff;
-    /* Колір шрифту при фокусі */
 }
 
+/* Логотип у футері */
+.logo-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+
+/* Колір тексту всередині логотипа у футері */
+.footer-logo .logo-text {
+    color: #f4f4fd;
+}
+
+/* Заголовки секцій */
 .features {
     background-color: #F4F4FD;
     padding: 2em;
@@ -151,6 +160,7 @@ body {
     color: #434455;
 }
 
+/* Контент */
 .team {
     background-color: #F4F4FD;
     padding: 2em;
@@ -196,6 +206,7 @@ body {
     color: #434455;
 }
 
+/* Футер */
 .footer {
     background-color: #2e2f42;
     padding: 1em;
@@ -207,6 +218,7 @@ body {
     letter-spacing: 0.02em;
 }
 
+/* Портфоліо */
 .portfolio {
     background-color: #F4F4FD;
     padding: 2em;
@@ -271,8 +283,4 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-}
-
-.footer-logo .logo-text {
-    color: #f4f4fd;
 }
