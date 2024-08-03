@@ -91,7 +91,9 @@ body {
     transition: background-color 0.3s;
 }
 
-.order-button:hover,
+.order-button:hover{
+        background-color: #404BBF;
+}
 .order-button:focus {
     background-color: #404BBF;
 }
