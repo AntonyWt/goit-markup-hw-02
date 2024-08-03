@@ -8,64 +8,6 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Логотип в навігації */
-.main-link .logo-text {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-/* Колір тексту всередині логотипа */
-.logo-text {
-    color: #2e2f42;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-/* Навігаційні посилання */
-.nav-link,
-.main-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-}
-
-.nav-link:hover,
-.main-link:hover,
-.nav-link:focus,
-.main-link:focus {
-    color: #404bbf;
-}
-
-/* Стилі адреси */
-.contact-info {
-    font-style: normal;
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
 /* Заголовки та кнопки */
 .hero {
     background-color: #2e2f42;
