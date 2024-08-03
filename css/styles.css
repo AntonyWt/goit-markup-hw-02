@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /* Основні стилі для сайту */
 body {
     font-family: "Roboto", sans-serif;
@@ -8,10 +7,9 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Логотип */
-/* Логотип */
-.logo-main {
-    font-family: 'Raleway', sans-serif;
+/* Логотип в навігації */
+.main-link .logo-text {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -20,12 +18,20 @@ body {
     color: #4d5ae5;
 }
 
-.logo-span {
+/* Колір тексту всередині логотипа */
+.logo-text {
     color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-/* Навігація */
-.nav-link {
+/* Навігаційні посилання */
+.nav-link,
+.main-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -35,11 +41,13 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.main-link:hover,
+.nav-link:focus,
+.main-link:focus {
     color: #404bbf;
 }
 
-/* Контактна інформація */
+/* Стилі адреси */
 .contact-info {
     font-style: normal;
 }
@@ -57,21 +65,8 @@ body {
     color: #404bbf;
 }
 
-/* Загальні стилі списків */
-.navigation-list,
-.contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navigation-item,
-.contact-item {
-    margin-bottom: 10px;
-}
-
 /* Заголовки та кнопки */
-.hero {
+.intro {
     background-color: #2e2f42;
     padding: 2em;
     text-align: center;
