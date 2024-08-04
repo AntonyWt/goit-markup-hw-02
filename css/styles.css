@@ -26,6 +26,11 @@ body {
     color: #2e2f42;
     text-decoration: none;
     margin-right: 76px;
+        font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5;
 }
 /* Навігаційні посилання */
 .nav-link,
@@ -93,7 +98,7 @@ body {
 
 .order-button:hover,
 .order-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /* Логотип у футері */
