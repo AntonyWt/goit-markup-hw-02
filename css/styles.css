@@ -93,7 +93,7 @@ body {
 
 .order-button:hover,
 .order-button:focus {
-    background-color: #404BBF;
+    color: #404BBF;
 }
 
 /* Логотип у футері */
