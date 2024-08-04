@@ -100,18 +100,12 @@ body {
 
 .order-button:focus {
     background-color: #404BBF;
-    color: red;
-    /* Зміна кольору тексту при фокусі */
-    outline: none;
-    /* Відключити стандартне обведення при фокусі */
 }
 
-/* Зміна кольору фону та тексту при наведенні мишкою */
 .order-button:hover {
     background-color: #404BBF;
-    color: yellow;
-    /* Зміна кольору тексту при наведенні мишкою */
 }
+
 /* Логотип у футері */
 .logo-text {
     font-family: "Raleway", sans-serif;
