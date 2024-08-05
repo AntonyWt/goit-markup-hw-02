@@ -1,8 +1,6 @@
 /* Основні стилі для сайту */
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 0;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -44,7 +42,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: none;
 }
 
 .nav-link:hover,
@@ -64,7 +61,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
 }
 
 .contact-link:hover,
@@ -75,15 +71,12 @@ body {
 /* Заголовки та кнопки */
 .hero {
     background-color: #2e2f42;
-    padding: 2em;
-    text-align: center;
 }
 
 .intro-title {
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
-    margin-bottom: 1em;
 }
 
 .order-button {
@@ -94,9 +87,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -127,7 +117,6 @@ body {
 /* Заголовки секцій */
 .features {
     background-color: #F4F4FD;
-    padding: 2em;
 }
 
 .section-title {
@@ -137,20 +126,14 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #ffffff;
-    margin-bottom: 1em;
 }
 
 .features-list {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .feature-item {
     background-color: #FFFFFF;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 8px;
 }
 
 .feature-title {
@@ -159,7 +142,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 0 0 0.5em 0;
 }
 
 .feature-description {
@@ -172,7 +154,6 @@ body {
 /* Контент */
 .team {
     background-color: #F4F4FD;
-    padding: 2em;
 }
 
 .team-title {
@@ -182,21 +163,12 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 1em;
 }
 
-.team-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+
 
 .team-member {
     background-color: #FFFFFF;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 8px;
-    text-align: center;
 }
 
 .team-name {
@@ -205,7 +177,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 0 0 0.5ем 0;
 }
 
 .team-role {
@@ -218,7 +189,6 @@ body {
 /* Футер */
 .footer {
     background-color: #2e2f42;
-    padding: 1em;
     color: #f4f4fd;
 }
 
@@ -240,31 +210,20 @@ body {
 /* Портфоліо */
 .portfolio {
     background-color: #F4F4FD;
-    padding: 2em;
 }
 
 .portfolio-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 1em;
 }
 
-.portfolio-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+
 
 .portfolio-item {
     background-color: #FFFFFF;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 8px;
-    text-align: center;
 }
 
 .feature-title {
@@ -273,7 +232,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 0 0 0.5ем 0;
 }
 
 .feature-text {
@@ -285,7 +243,6 @@ body {
 
 .footer {
     background-color: #2e2f42;
-    padding: 1em;
     color: #f4f4fd;
 }
 
